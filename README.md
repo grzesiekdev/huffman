@@ -1,5 +1,5 @@
 # Huffman algorithm
-My own implementation of Huffman algorithm for my programming class. You can take a look at what Huffman coding is at wiki https://en.wikipedia.org/wiki/Huffman_coding
+My own implementation of Huffman algorithm created as the task for my programming exercises. You can take a look at what Huffman coding is at wiki https://en.wikipedia.org/wiki/Huffman_coding
 
 ![representation of huffman coding](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Huffman_%28To_be_or_not_to_be%29.svg/250px-Huffman_%28To_be_or_not_to_be%29.svg.png)
 
@@ -14,7 +14,7 @@ If you are on UNIX based system and want to create some big random .txt files, j
 This will create 1GB random base64 .txt file.
 
 ## Optimization
-This implementation stores output into .bin file. *Clean base64 file are always downsized for ~25%*, but other files can be reduced approx. even 50%. 
+This implementation stores output into .bin file. **Clean base64 file are always downsized for ~25%**, but other files can be reduced approx. even 50%. 
 Running this algorithm for big files takes some time, for example:
 
 10MB base64 file -> ~19sec
