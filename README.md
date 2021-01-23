@@ -1,6 +1,8 @@
 # Huffman algorithm
 My own implementation of Huffman algorithm for my programming class. You can take a look at what Huffman coding is at wiki https://en.wikipedia.org/wiki/Huffman_coding
 
+![representation of huffman coding](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Huffman_%28To_be_or_not_to_be%29.svg/250px-Huffman_%28To_be_or_not_to_be%29.svg.png)
+
 ## How to run
 Clone repository, then run following command: ` python3 main.py -e <name_of_file>.txt `.
 You have to pass an -e argument, otherwise program won't work. For more specific informations run `python main.py -h`
